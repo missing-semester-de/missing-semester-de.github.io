@@ -42,7 +42,7 @@ Viele weitere Beispiele für häufige crontab Zeitpläne findest du unter [cront
 
 ## Shell-Umgebung und Protokollierung
 
-A common pitfall when using cron is that it does not load the same environment scripts that common shells do such as `.bashrc`, `.zshrc`, &c and it does not log the output anywhere by default. Combined with the maximum frequency being one minute, it can become quite painful to debug cronscripts initially.
+Ein häufiger Fallstrick beim verwenden von cron ist das es nicht die gleichen Umgebungsskripte lädt, wie es gewöhnliche Shells tun, wie z.B.`.bashrc`, `.zshrc`, &c und dabei nicht die Ausgaben loggt. In Kombination mit der maximalen Frequenz von einer Minute kann es anfangs recht mühsam werden, Cronscripts zu debuggen.
 
 To deal with the environment, make sure that you use absolute paths in all your scripts and modify your environment variables such as `PATH` so the script can run successfully. To simplify logging, a good recommendation is to write your crontab in a format like this
 
