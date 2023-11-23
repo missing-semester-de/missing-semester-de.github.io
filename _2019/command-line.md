@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: "Command-line environment"
+title: "Kommandozeilenumgebung"
 presenter: Jose
 video:
   aspect: 62.5

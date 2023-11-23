@@ -7,28 +7,29 @@ video:
   id: lrpqYF8tcYQ
 ---
 
-There are two types of people:
+Es gibt zwei Typen von Menschen:
+- Diejenigen, die ein Backup erstellen
+- Diejenigen, die dies in Zukunft machen werden
 
-- Those who do backups
-- Those who will do backups
+All deine Daten die du besitzt und die nicht gesichert sind können jeden Moment verschwinden, für immer.
+In dieser Vorlesung werden wir die Grundlagen von Backups legen und die Tücken einiger Ansätze.
 
-Any data you own that you haven't backed up is data that could be gone at any moment, forever. Here we will cover some good backup basics and the pitfalls of some approaches.
+## 3-2-1 Regel
 
-## 3-2-1 Rule
+The [3-2-1 Regel](https://www.us-cert.gov/sites/default/files/publications/data_backup_options.pdf) ist eine generelle empfohlende Strategie, um deine Daten zu sichern. Es besagt, dass du:
 
-The [3-2-1 rule](https://www.us-cert.gov/sites/default/files/publications/data_backup_options.pdf) is a general recommended strategy for backing up your data. It state that you should have:
+- mindestens **3 Kopien** deine Daten haben solltest
+- **2** Kopien auf **verschiedenen Datenträgern**
+- **1** der Kopien **offline**
 
-- at least **3 copies** of your data
-- **2** copies in **different mediums**
-- **1** of the copies being **offsite**
+Die Kernidee hinter dieser Empfehlung, ist es, dass du nicht von einem Medium abhängig bist. Wenn du zwei verscheidene Datenträger für deine Backups benutzt bedeutet dies, dass bei Datenkorruption oder Ausfalls einer Datenträgers nicht alle Daten weg sind. 
+Similarly, if you store your only backup at home and the house burns down or gets robbed you lose everything, that's what the offsite copy is there for. Onsite backups give you availability and speed, offsite give you the resiliency should a disaster happen.
 
-The main idea behind this recommendation is not to put all your eggs in one basket. Having 2 different devices/disks ensures that a single hardware failure doesn't take away all your data. Similarly, if you store your only backup at home and the house burns down or gets robbed you lose everything, that's what the offsite copy is there for. Onsite backups give you availability and speed, offsite give you the resiliency should a disaster happen.
-
-## Testing your backups
+## Teste deine Backups
 
 A common pitfall when performing backups is blindly trusting whatever the system says it's doing and not verifying that the data can be properly recovered. Toy Story 2 was almost lost and their backups were not working, [luck](https://www.youtube.com/watch?v=8dhp_20j0Ys) ended up saving them.
 
-## Versioning
+## Versionierung
 
 You should understand that [RAID](https://en.wikipedia.org/wiki/RAID) is not a backup, and in general **mirroring is not a backup solution**. Simply syncing your files somewhere will not help in several scenarios, such as:
 
