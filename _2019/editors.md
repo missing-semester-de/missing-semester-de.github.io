@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: "Editors"
+title: "Textbearbeitungsprogramme"
 presenter: Anish
 video:
   aspect: 62.5
