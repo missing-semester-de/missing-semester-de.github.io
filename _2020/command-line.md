@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: "Command-line Environment"
+title: "Kommandozeilenumgebung"
 date: 2020-01-21
 ready: true
 video:

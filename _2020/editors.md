@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: "Editors (Vim)"
+title: "Textbearbeitungsprogramm (Vim)"
 date: 2020-01-15
 ready: true
 video:

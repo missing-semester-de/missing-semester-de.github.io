@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: "Course overview + the shell"
+title: "Überblick über den Kurs und die Shellumgebung"
 date: 2020-01-13
 ready: true
 video:

@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: "Potpourri"
+title: "Allerlei Nützliches"
 date: 2020-01-29
 ready: true
 video:

@@ -11,7 +11,7 @@ excerpt: '' # work around a bug
   {% for lecture in lectures %}
     {% if lecture.phony != true %}
       <li>
-        <strong>{{ lecture.date | date: '%-m/%d' }}</strong>:
+        <strong>{{ lecture.date | date: '%d.%m.%y' }}</strong>:
         {% if lecture.ready %}
           <a href="{{ lecture.url }}">{{ lecture.title }}</a>
         {% elsif lecture.noclass %}
@@ -28,8 +28,8 @@ excerpt: '' # work around a bug
   {% endfor %}
 </ul>
 
-Video recordings of the lectures are available <a href="https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J">on YouTube</a>.
+Videoaufzeichnungen der Vorlesungen sind verfügbar auf <a href="https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J">YouTube</a>.
 
 <h2>Vorlesungen aus den vorherigen Jahren</h2>
 
-<p>You can find lecture notes and videos from <a href="/2019/">last year's version of this class</a>. Each year's lectures are fully self-contained, and we recommend following the most recent version of the material (i.e. the 2020 lectures). There is slight variation in the topics covered, so we continue to host notes and videos for earlier versions of this course.</p>
+<p>Du kannst das Skript und Videos von dem Kurs des letzten Jahres <a href="/2019/">hier</a> abrufen. Die Vorlesungskurse jedes Jahres sind vollständig in sich abgeschlossen. Daher empfehlen wir die neueste Version der Kurses (also die Version des Jahres 2020) zu benutzen. Die behandelten Themen variieren leicht, so dass wir die weiterhin die Skripte und Videos der vorherigen Jahre weiterhin zur Verfügung stellen.</p>
