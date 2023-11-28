@@ -3,6 +3,8 @@ layout: page
 title: Das fehlender Semester deines Informatikstudiums 
 nositetitle: true
 ---
+ ``` Hinweis: Die Übersetzung ist noch in der Entstehung und daher ist der Kurs noch nicht vollständig übersetzt. Dieser Hinweis wird entfernt, sobald die Übersetzung vollständig ist. ```
+
 Kurse und Vorlesungen lehren über anspruchsvolle Themen in der Informatik: von Betriebssystemen
 bis maschinelles Lernen, aber es gibt ein fundamentales Thema das selten abgedeckt wird und 
 stattdessen den Studenten in Eigenarbeit überlassen wird:
