@@ -33,7 +33,7 @@ Dotfiles are not exclusive to command line applications, for instance the [MPV](
 # Learning to customize tools
 
 You can learn about your tool's settings by reading online documentation or
-[man pages](https://en.wikipedia.org/wiki/Man_page). Another great way is to
+[Manpage](https://de.wikipedia.org/wiki/Manpage). Another great way is to
 search the internet for blog posts about specific programs, where authors will
 tell you about their preferred customizations. Yet another way to learn about
 customizations is to look through other people's dotfiles: you can find tons of

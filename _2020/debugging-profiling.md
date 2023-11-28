@@ -41,7 +41,7 @@ $ python logger.py color
 
 One of my favorite tips for making logs more readable is to color code them.
 By now you probably have realized that your terminal uses colors to make things more readable. But how does it do it?
-Programs like `ls` or `grep` are using [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code), which are special sequences of characters to indicate your shell to change the color of the output. For example, executing `echo -e "\e[38;2;255;0;0mThis is red\e[0m"` prints the message `This is red` in red on your terminal, as long as it supports [true color](https://github.com/termstandard/colors#truecolor-support-in-output-devices). If your terminal doesn't support this (e.g. macOS's Terminal.app), you can use the more universally supported escape codes for 16 color choices, for example `echo -e "\e[31;1mThis is red\e[0m"`.
+Programs like `ls` or `grep` are using [ANSI-Escapesequenz](https://de.wikipedia.org/wiki/ANSI-Escapesequenz), which are special sequences of characters to indicate your shell to change the color of the output. For example, executing `echo -e "\e[38;2;255;0;0mThis is red\e[0m"` prints the message `This is red` in red on your terminal, as long as it supports [true color](https://github.com/termstandard/colors#truecolor-support-in-output-devices). If your terminal doesn't support this (e.g. macOS's Terminal.app), you can use the more universally supported escape codes for 16 color choices, for example `echo -e "\e[31;1mThis is red\e[0m"`.
 
 The following script shows how to print many RGB colors into your terminal (again, as long as it supports true color).
 
@@ -137,7 +137,7 @@ They are optimized for C-like language debugging but will let you probe pretty m
 ## Specialized Tools
 
 Even if what you are trying to debug is a black box binary there are tools that can help you with that.
-Whenever programs need to perform actions that only the kernel can, they use [System Calls](https://en.wikipedia.org/wiki/System_call).
+Whenever programs need to perform actions that only the kernel can, they use [Systemaufruf](https://de.wikipedia.org/wiki/Systemaufruf).
 There are commands that let you trace the syscalls your program makes. In Linux there's [`strace`](https://www.man7.org/linux/man-pages/man1/strace.1.html) and macOS and BSD have [`dtrace`](http://dtrace.org/blogs/about/). `dtrace` can be tricky to use because it uses its own `D` language, but there is a wrapper called [`dtruss`](https://www.manpagez.com/man/1/dtruss/) that provides an interface more similar to `strace` (more details [here](https://8thlight.com/blog/colin-jones/2015/11/06/dtrace-even-better-than-strace-for-osx.html)).
 
 Below are some examples of using `strace` or `dtruss` to show [`stat`](https://www.man7.org/linux/man-pages/man2/stat.2.html) syscall traces for an execution of `ls`. For a deeper dive into `strace`, [this article](https://blogs.oracle.com/linux/strace-the-sysadmins-microscope-v2) and [this zine](https://jvns.ca/strace-zine-unfolded.pdf) are good reads.
@@ -159,11 +159,11 @@ For web development, the Chrome/Firefox developer tools are quite handy. They fe
 - Network - Analyze the requests timeline.
 - Storage - Look into the Cookies and local application storage.
 
-## Static Analysis
+## Statische Codeanalyse
 
 For some issues you do not need to run any code.
 For example, just by carefully looking at a piece of code you could realize that your loop variable is shadowing an already existing variable or function name; or that a program reads a variable before defining it.
-Here is where [static analysis](https://en.wikipedia.org/wiki/Static_program_analysis) tools come into play.
+Here is where [statische Codeanalyse](https://de.wikipedia.org/wiki/Statische_Code-Analyse) tools come into play.
 Static analysis programs take source code as input and analyze it using coding rules to reason about its correctness.
 
 In the following Python snippet there are several mistakes.

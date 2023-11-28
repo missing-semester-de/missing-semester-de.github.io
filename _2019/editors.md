@@ -17,8 +17,7 @@ while, even if it temporarily hampers your productivity. It'll pay off soon
 enough (two weeks is enough to learn the basics).
 
 We are going to teach you Vim, but we encourage you to experiment with other
-editors. It's a very personal choice, and people have [strong
-opinions](https://en.wikipedia.org/wiki/Editor_war).
+editors. It's a very personal choice, and people have [festgefahrende Meinungen](https://de.wikipedia.org/wiki/Editor_War).
 
 We can't teach you how to use a powerful editor in 50 minutes, so we're going
 to focus on teaching you the basics, showing you some of the more advanced

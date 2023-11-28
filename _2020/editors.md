@@ -7,7 +7,9 @@ video:
   aspect: 56.25
   id: a6Q8Na575qc
 ---
-
+Deutsche Wörter schreiben und code schreiben sind zwei verschiedene Aktivitäten.
+Wenn du programmierst, dann verbingst du viel mehr zeit damit zwischen Dateien zu wechseln, lesen,
+navigieren 
 Writing English words and writing code are very different activities. When
 programming, you spend more time switching files, reading, navigating, and
 editing code compared to writing a long stream. It makes sense that there are
@@ -36,8 +38,8 @@ learn more.
 
 # Which editor to learn?
 
-Programmers have [strong opinions](https://en.wikipedia.org/wiki/Editor_war)
-about their text editors.
+Programmierer haben [festgefahrende Standpunkte](https://de.wikipedia.org/wiki/Editor_War)
+wenn es um die Verwendung des Texteditors geht.
 
 Which editors are popular today? See this [Stack Overflow
 survey](https://insights.stackoverflow.com/survey/2019/#development-environments-and-tools)
@@ -224,7 +226,7 @@ which means "inner" or "inside", and `a`, which means "around".
 
 # Demo
 
-Here is a broken [fizz buzz](https://en.wikipedia.org/wiki/Fizz_buzz)
+Here is a broken [fizz buzz](https://de.wikipedia.org/wiki/Fizz_buzz)
 implementation:
 
 ```python
@@ -422,7 +424,7 @@ better way of doing this", there probably is: look it up online.
 - [Vim Adventures](https://vim-adventures.com/) is a game to learn Vim
 - [Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
 - [Vim Advent Calendar](https://vimways.org/2019/) has various Vim tips
-- [Vim Golf](http://www.vimgolf.com/) is [code golf](https://en.wikipedia.org/wiki/Code_golf), but where the programming language is Vim's UI
+- [Vim Golf](http://www.vimgolf.com/) is [code golf](https://de.wikipedia.org/wiki/Codegolf), but where the programming language is Vim's UI
 - [Vi/Vim Stack Exchange](https://vi.stackexchange.com/)
 - [Vim Screencasts](http://vimcasts.org/)
 - [Practical Vim](https://pragprog.com/titles/dnvim2/) (book)
@@ -430,7 +432,7 @@ better way of doing this", there probably is: look it up online.
 # Exercises
 
 1. Complete `vimtutor`. Note: it looks best in a
-   [80x24](https://en.wikipedia.org/wiki/VT100) (80 columns by 24 lines)
+   [80x24](https://de.wikipedia.org/wiki/VT100) (80 columns by 24 lines)
    terminal window.
 1. Download our [basic vimrc](/2020/files/vimrc) and save it to `~/.vimrc`. Read
    through the well-commented file (using Vim!), and observe how Vim looks and

@@ -23,9 +23,9 @@ For the last lecture, we answered questions that the students submitted:
 - [What are the advantages and disadvantages of each OS and how can we choose between them (e.g. choosing the best Linux distribution for our purposes)?](#what-are-the-advantages-and-disadvantages-of-each-os-and-how-can-we-choose-between-them-eg-choosing-the-best-linux-distribution-for-our-purposes)
 - [Vim vs Emacs?](#vim-vs-emacs)
 - [Any tips or tricks for Machine Learning applications?](#any-tips-or-tricks-for-machine-learning-applications)
-- [Any more Vim tips?](#any-more-vim-tips)
-- [What is 2FA and why should I use it?](#what-is-2fa-and-why-should-i-use-it)
-- [Any comments on differences between web browsers?](#any-comments-on-differences-between-web-browsers)
+- [Habt ihr noch mehr Tipps für Vim?](#any-more-vim-tips)
+- [Was ist 2FA und warum sollte ich es benutzen?](#what-is-2fa-and-why-should-i-use-it)
+- [Worin unterscheiden sich Webbrowser?](#any-comments-on-differences-between-web-browsers)
 
 ## Any recommendations on learning Operating Systems related topics like processes, virtual memory, interrupts, memory management, etc 
 

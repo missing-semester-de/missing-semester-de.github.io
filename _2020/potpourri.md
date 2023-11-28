@@ -10,7 +10,7 @@ video:
 
 ## Table of Contents
 
-- [Keyboard remapping](#keyboard-remapping)
+- [Tastaturbelegung ändern](#keyboard-remapping)
 - [Daemons](#daemons)
 - [FUSE](#fuse)
 - [Backups](#backups)
@@ -25,7 +25,7 @@ video:
 - [Notebook programming](#notebook-programming)
 - [GitHub](#github)
 
-## Keyboard remapping
+## Tastaturbelegung ändern
 
 As a programmer, your keyboard is your main input method. As with pretty much anything in your computer, it is configurable (and worth configuring).
 

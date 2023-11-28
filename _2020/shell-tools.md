@@ -10,7 +10,7 @@ video:
 
 In this lecture, we will present some of the basics of using bash as a scripting language along with a number of shell tools that cover several of the most common tasks that you will be constantly performing in the command line.
 
-# Shell Scripting
+# Shell Skripting
 
 So far we have seen how to execute commands in the shell and pipe them together.
 However, in many scenarios you will want to perform a series of commands and make use of control flow expressions like conditionals or loops.

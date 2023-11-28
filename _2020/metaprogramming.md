@@ -18,15 +18,16 @@ limited importance in your day-to-day as a student, but the moment you
 interact with a larger code base through an internship or once you enter
 the "real world", you will see this everywhere. We should note that
 "metaprogramming" can also mean "[programs that operate on
-programs](https://en.wikipedia.org/wiki/Metaprogramming)", whereas that
+programs](https://de.wikipedia.org/wiki/Metaprogrammierung)", whereas that
 is not quite the definition we are using for the purposes of this
 lecture.
 
 # Build systems
 
-If you write a paper in LaTeX, what are the commands you need to run to
-produce your paper? What about the ones used to run your benchmarks,
-plot them, and then insert that plot into your paper? Or to compile the
+Wenn du ein wissenschaftliches Paper in LaTeX erzeugst, welche Kommandos musst du ausführen, 
+um dein Paper zu kompilieren? Oder die, die du für deine Benchmarks verwendest und diese dann geplottet in 
+dein Paper einfügst?
+Or to compile the
 code provided in the class you're taking and then running the tests?
 
 For most projects, whether they contain code or not, there is a "build

@@ -70,7 +70,7 @@ If you are already familiar with popular hypervisors/VMs you may want to learn m
    running `sudo rm -rf --no-preserve-root /`, and see if you can recover
    easily.
 
-1. Read what a [fork-bomb](https://en.wikipedia.org/wiki/Fork_bomb) (`:(){ :|:& };:`) is and run it on the VM to see that the resource isolation (CPU, Memory, &c) works.
+1. Read what a [Rabbit](https://de.wikipedia.org/wiki/Forkbomb) (`:(){ :|:& };:`) is and run it on the VM to see that the resource isolation (CPU, Memory, &c) works.
 
 1. Install guest addons and experiment with different windowing modes, file
    sharing, and other features.

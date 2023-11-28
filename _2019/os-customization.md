@@ -50,7 +50,7 @@ specific customizations online, such as Mathias Bynens'
 
 ## Tiling window management
 
-[Tiling window management](https://en.wikipedia.org/wiki/Tiling_window_manager)
+[Tiling](https://de.wikipedia.org/wiki/Tiling_(Computer))
 is one approach to window management, where you organize windows into
 non-overlapping frames. If you're using a Unix-based operating system, you can
 install a tiling window manager; if you're using something like Windows or

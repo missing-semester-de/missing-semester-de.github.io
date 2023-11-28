@@ -122,7 +122,7 @@ $ jobs
 
 A special signal is `SIGKILL` since it cannot be captured by the process and it will always terminate it immediately. However, it can have bad side effects such as leaving orphaned children processes.
 
-You can learn more about these and other signals [here](https://en.wikipedia.org/wiki/Signal_(IPC)) or typing [`man signal`](https://www.man7.org/linux/man-pages/man7/signal.7.html) or `kill -l`.
+You can learn more about these and other signals [here](https://de.wikipedia.org/wiki/Signal_(Unix)) or typing [`man signal`](https://www.man7.org/linux/man-pages/man7/signal.7.html) or `kill -l`.
 
 
 # Terminal Multiplexers
@@ -251,7 +251,7 @@ long-lived projects.
 
 What should you put in your dotfiles?
 You can learn about your tool's settings by reading online documentation or
-[man pages](https://en.wikipedia.org/wiki/Man_page). Another great way is to
+[man pages](https://de.wikipedia.org/wiki/Manpage). Another great way is to
 search the internet for blog posts about specific programs, where authors will
 tell you about their preferred customizations. Yet another way to learn about
 customizations is to look through other people's dotfiles: you can find tons of

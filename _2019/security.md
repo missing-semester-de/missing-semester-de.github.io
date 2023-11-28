@@ -122,8 +122,7 @@ trying to secure against?
       encrypt the key with your public key so only you can read it back
       later with your private key. Exact encryption settings matter a
       lot!
- - [Plausible
-   deniability](https://en.wikipedia.org/wiki/Plausible_deniability)
+ - [Glaubhafte Abstreitbarkeit](https://de.wikipedia.org/wiki/Glaubhafte_Abstreitbarkeit)
    (what seems to be the problem officer?): usually lower performance,
    and easier to lose data. Hard to actually prove that it provides
    [deniable

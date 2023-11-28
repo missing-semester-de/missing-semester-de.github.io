@@ -31,7 +31,7 @@ A common pitfall when performing backups is blindly trusting whatever the system
 
 ## Versionierung
 
-You should understand that [RAID](https://en.wikipedia.org/wiki/RAID) is not a backup, and in general **mirroring is not a backup solution**. Simply syncing your files somewhere will not help in several scenarios, such as:
+You should understand that [RAID](https://de.wikipedia.org/wiki/RAID) is not a backup, and in general **mirroring is not a backup solution**. Simply syncing your files somewhere will not help in several scenarios, such as:
 
 - Data corruption
 - Malicious software
@@ -43,7 +43,7 @@ A proper backup system should be versioned in order to prevent this failure mode
 
 ## Deduplication
 
-However, making several copies of your data might be extremely costly in terms of disk space. Nevertheless, from one version to the next, most data will be identical and needs not be transferred again. This is where [data deduplication](https://en.wikipedia.org/wiki/Data_deduplication) comes into play, by keeping track of what has already been stored one can do **incremental backups** where only the changes from one version to the next need to be stored. This significantly reduces the amount of space needed for backups beyond the first copy.
+However, making several copies of your data might be extremely costly in terms of disk space. Nevertheless, from one version to the next, most data will be identical and needs not be transferred again. This is where [Deduplikation](https://de.wikipedia.org/wiki/Deduplikation) comes into play, by keeping track of what has already been stored one can do **incremental backups** where only the changes from one version to the next need to be stored. This significantly reduces the amount of space needed for backups beyond the first copy.
 
 ## Encryption
 

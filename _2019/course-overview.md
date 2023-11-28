@@ -9,8 +9,8 @@ video:
 
 # Motivation
 
-This class is about [hacker](https://en.wikipedia.org/wiki/Hacker_culture)
-tools, not [hacker](https://en.wikipedia.org/wiki/Security_hacker) tools.
+This class is about [hacker](https://de.wikipedia.org/wiki/Hacker#Softwareentwicklung)
+tools, not [hacker](https://de.wikipedia.org/wiki/Hacker_(Computersicherheit)) tools.
 
 MIT classes do not cover any of this content in detail. It's hugely beneficial
 to be proficient with your tools: it'll save you a lot of time (and the payoff

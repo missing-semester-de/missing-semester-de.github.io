@@ -276,7 +276,7 @@ Also, a double dash `--` is used in built-in commands and many other commands to
 
 1. **Shebang**
 
-    When you write a script you can specify to your shell what interpreter should be used to interpret the script by using a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) line. Write a script called `hello` with the following contentsmake  it executable with `chmod +x hello`. Then execute it with `./hello`. Then remove the first line and execute it again? How is the shell using that first line?
+    When you write a script you can specify to your shell what interpreter should be used to interpret the script by using a [Shebang](https://de.wikipedia.org/wiki/Shebang) line. Write a script called `hello` with the following contentsmake  it executable with `chmod +x hello`. Then execute it with `./hello`. Then remove the first line and execute it again? How is the shell using that first line?
 
 
     ```bash

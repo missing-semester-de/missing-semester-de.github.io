@@ -28,7 +28,7 @@ _design_ secure systems or cryptographic protocols, but we hope it will be
 enough to give you a general understanding of the programs and protocols you
 already use.
 
-# Entropy
+# Entropie
 
 [Entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)) is a
 measure of randomness. This is useful, for example, when determining the
@@ -55,7 +55,7 @@ guessing, as the XKCD comic points out, \~40 bits of entropy is pretty good. To
 be resistant to offline guessing, a stronger password would be necessary (e.g.
 80 bits, or more).
 
-# Hash functions
+# Hash-Funktion
 
 A [cryptographic hash
 function](https://en.wikipedia.org/wiki/Cryptographic_hash_function) maps data
@@ -102,7 +102,7 @@ recommending specific hash functions is beyond the scope of this lecture. If you
 are doing work where this matters, you need formal training in
 security/cryptography.
 
-## Applications
+## Applikationen
 
 - Git, for content-addressed storage. The idea of a [hash
 function](https://en.wikipedia.org/wiki/Hash_function) is a more general
@@ -230,7 +230,7 @@ model.
 
 # Case studies
 
-## Password managers
+## Passwortmanager
 
 This is an essential tool that everyone should try to use (e.g.
 [KeePassXC](https://keepassxc.org/), [pass](https://www.passwordstore.org/),
@@ -243,7 +243,7 @@ Using a password manager lets you avoid password reuse (so you're less impacted
 when websites get compromised), use high-entropy passwords (so you're less likely to
 get compromised), and only need to remember a single high-entropy password.
 
-## Two-factor authentication
+## Zweifaktor-Authentifizierung
 
 [Two-factor
 authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication)
@@ -332,13 +332,13 @@ security concepts, tips
    file](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/SHA256SUMS)
    hosted at `debian.org`, if you've downloaded the linked file from the
    Argentinean mirror).
-1. **Symmetric cryptography.** Encrypt a file with AES encryption, using
+1. **Symmetrische Verschlüsselung.** Encrypt a file with AES encryption, using
    [OpenSSL](https://www.openssl.org/): `openssl aes-256-cbc -salt -in {input
    filename} -out {output filename}`. Look at the contents using `cat` or
    `hexdump`. Decrypt it with `openssl aes-256-cbc -d -in {input filename} -out
    {output filename}` and confirm that the contents match the original using
    `cmp`.
-1. **Asymmetric cryptography.**
+1. **Asymmetrische Verschlüsselung.**
     1. Set up [SSH
        keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
        on a computer you have access to (not Athena, because Kerberos interacts
